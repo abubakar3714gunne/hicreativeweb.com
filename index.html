@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="website Icon" type="png" href="./logovv.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HI CREATIVE.COM</title><link rel="stylesheet" href="./index.css">
+</head>
+<body style="background-color:rgb(255, 255, 255);" onload="myFunction()" style="margin:0;">
+        <!-- loader started -->
+        <div id="loader"></div>
+        <div style="display:none;" id="myDiv" class="animate-bottom">
+        <!-- loader end -->
+    <nav class="navbar"> 
+        <div class="innavbar">
+            <nav class="logo">
+                <img src="./hi logo.png" alt=""></nav>
+            <nav class="nav-links" id="navLinks"> 
+                <li><a href="#home">HOME</a></li>
+                <li><a href="./about.html">ABOUT</a></li>
+                <li><a href="Tel:08160528863"><button class="contact-btn">CONTACT US</button></a></li>
+            </nav> 
+        </div> 
+        <div class="burger" id="burger"> 
+            <div class="line1"></div> 
+            <div class="line2"></div> 
+            <div class="line3"></div> 
+        </div> 
+    </nav> 
+    <div id="home">
+        <div class="in-home">
+            <h3>GRAPHIC DESIGN</h3>
+            <h1>YOUR COMPLETE BRAND IDENTITY,</h1>
+            <h2>MADE IT EASY</h2>
+            <h4>Create professional materials that help establish trust with your clients.</h4>
+        </div>
+    </div>
+    <div id="alldecument">
+        <div class="in-decument">
+            <h1>Beautiful design is a must-have in today's business world</h1>
+            <!-- <h2>If you want your customers and prospects to take you seriously, you need Code & Color's Kingsport graphic design.</h2> -->
+
+            <div class="design">
+                <div class="first">
+                    <div class="left">
+                        <p align="center"><img src="./figma_prev_ui.png" alt=""></p>
+                        <h3>UIUX DESIGN</h3>
+                        <p>Let us help you craft a consistent brand identification system that reflects your company's values.</p>
+                    </div>
+                    <div class="right">
+                        <p align="center"><img src="./vs code_prev_ui.png" alt=""></p>
+                        <h3>WEB DESIGN</h3>
+                        <p>Let us help you craft a consistent brand identification system that reflects your company's values.</p>
+                    </div>
+                </div>
+                <div class="first">
+                    <div class="left">
+                        <p align="center"><img src="./AI_prev_ui.png" alt=""></p>
+                        <h3>GRAPHIC DESIGN</h3>
+                        <p>Let us help you craft a consistent brand identification system that reflects your company's values.</p>
+                    </div>
+                    <div class="right">
+                        <p align="center"><img src="./5.jpg" alt=""></p>
+                        <h3>MUG</h3>
+                        <p>Let us help you craft a consistent brand identification system that reflects your company's values.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="work">
+                <h2>SOME OF OUR RECENT WORK</h2>
+                <div class="in-work">
+                    <div class="for-img"><img src="./11.jpg" alt=""></div>
+                    <div class="for-img"><img src="./1 p.png" alt=""></div>
+                    <div class="for-img"><img src="./13.jpg" alt=""></div>
+                </div>
+                <div class="in-work">
+                    <div class="for-img"><img src="./5.jpg" alt=""></div>
+                    <div class="for-img"><img src="./4.jpg" alt=""></div>
+                    <div class="for-img"><img src="./9.jpg" alt=""></div>
+                </div>
+                <div class="in-work">
+                    <div class="for-img"><img src="./17.jpg" alt=""></div>
+                    <div class="for-img"><img src="./19.jpg" alt=""></div>
+                    <div class="for-img"><img src="./22.jpg" alt=""></div>
+                </div>
+                <div class="in-work">
+                    <div class="for-img"><img src="./23.jpg" alt=""></div>
+                    <div class="for-img"><img src="./12.jpg" alt=""></div>
+                    <div class="for-img"><img src="./13.jpg" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="get">
+        <div class="in-get">
+            <h1>LET'S GET TO WORK</h1>
+            <p align="center"><a href=""><button class="get-btn">CONTACT US</button></a></p>
+        </div>
+        
+    </div>
+    <div class="contact">
+        <div class="in-contact">
+            <div class="company">
+               <h3>COMPANY</h3>
+                <a href="">ABOUT US</a><br>
+                <a href="">CONTACT US</a><br>
+                <a href="">TERMS OF SERVICES</a><br>
+            </div>
+            <div class="service">
+                <h3>SERVICES</h3>
+                <a href="">WEB SITE</a><br>
+                <a href="">MOBILE APP</a><br>
+                <a href="">MARKETING</a><br>
+                <a href="">Design</a>
+            </div>
+            <div class="follow">
+                <h3>FOLLOW</h3>
+                <a href="">BLOG</a><br>
+                <a href="">LINKEDIN</a><br>
+                <a href="">FACEBOOK</a><br>
+                <a href="">TWEETER</a>
+            </div>
+            <div class="address">
+                <h3>ADDRESS</h3>
+                <a href="">WEB SITE</a><br>
+                <a href="">MOBILE APP</a><br>
+                <a href="">MARKETING</a><br>
+                <a href="">DESIGN</a>
+            </div>
+        </div>
+        <div class="sadik">
+            ©2023 All rights reserved, hi creative tech® is a registered trademark
+        </div>
+    </div>
+    
+    
+    
+    
+    <div onclick="scrollToTop()" class="scrollTop">Top</div>
+    
+
+    <script>
+        const burger = document.getElementById('burger');
+        const navLinks = document.getElementById('navLinks');
+        burger.addEventListener('click', () => { navLinks.classList.toggle('active'); });
+
+        function scrollToTop(){
+            window.scrollTo(0,0)
+        }
+        function myFunction() {
+        myVar = setTimeout(showPage, 1000);
+    }
+        function showPage() {
+        document.getElementById("loader").style.display = "none";
+        document.getElementById("myDiv").style.display = "block";
+    }
+    </script>
+</body>
+</html>
